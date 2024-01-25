@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Rumah Kita</title>
+    <!--GoogleFont-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" />
+    <link rel="stylesheet" href="src/css/style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <style>
+      body {
+        font-family: "Poppins", sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <!--Header Section Start-->
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background: linear-gradient(to right, rgb(210, 27, 27), rgb(65, 25, 20))">
+      <div class="container">
+        <img src="src/img/Logo.png" alt="logo" />
+        <a class="navbar-brand ms-2 fw-bold fs-6 me-5" href="#home">Rumah Kita</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav mx-auto">
+            <a class="nav-link fw-bold me-3 active" onclick="setActive('home')" href="#home">BERANDA</a>
+            <a class="nav-link fw-medium me-3" onclick="setActive('layanan')" href="#layanan">LAYANAN</a>
+            <a class="nav-link fw-medium" onclick="setActive('kontak')" href="#kontak">KONTAK</a>
+          </div>
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link fw-medium" href="#">DAFTAR</a>
+            <a class="btn btn-light py-md-1 px-3 my-1 mx-2 text-danger fw-bold" href="#">MASUK</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!--Header Section End-->
+
+    <!-- Hero section start-->
+    <section class="hero" id="home">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 px-5" style="margin-bottom: 7rem">
+            <main class="content">
+              <h1 class="fw-bold text-light" style="font-size: 45px">Membantu Temukan Rumah Impian.</h1>
+              <p class="text-light">
+                <span class="fw-bold">Rumah Kita</span> hadir untuk temukan rumah terbaik <br />untukmu, untuk di jual ataupun di sewa dengan sumber <br />
+                terpercaya.
+              </p>
+              <a class="btn btn-light py-md-3 px-3 my-3 mx-1 text-danger fw-bold" href="#layanan" role="button">Temukan Rumah</a>
+            </main>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Hero section end-->
+
+    <!--Layanan Section Start-->
+    <section id="layanan" class="layanan" style="background-color: rgba(241, 218, 218, 1)">
+      <div class="container">
+        <h1 class="fw-bold text-danger text-center" style="font-size: 40px">Layanan Kami</h1>
+        <p class="text-center fw-medium mb-5">Rumah impian hadir menjadi solusi bagi kamu</p>
+        <div class="row row-cols-1 row-cols-md-3 g-4 mt-4" style="margin-bottom: 5rem">
+          <div class="col">
+            <div class="card h-90" style="background-color: rgba(155, 9, 9, 1)">
+              <img src="src/img/house 1-1.png" class="img mt-5 bg-light py-md-1 my-1 mx-auto" alt="1" width="50px" height="50px" style="border-radius: 100%; padding: 2%" />
+              <div class="card-body mt-3 mb-3 text-center">
+                <h5 class="text-light fw-bold">Property Baru</h5>
+                <p class="text-light px-3 mt-4" style="font-size: 11px">Rumah impian kini jadi kenyataan, Beli rumah baru dengan fasilitas terbaik dan lingkungan yang nyaman.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-90 bg-light">
+              <img src="src/img/assets 1.png" class="img mt-5 bg-danger py-md-1 my-1 mx-auto" alt="1" width="50px" height="50px" style="border-radius: 100%; padding: 2%" />
+              <div class="card-body mt-3 mb-3 text-center">
+                <h5 class="text-danger fw-bold">Sewa Rumah</h5>
+                <p class="text-dark px-3 mt-4" style="font-size: 11px">Rumah impian kini jadi kenyataan, Beli rumah baru dengan fasilitas terbaik dan lingkungan yang nyaman.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-90" style="background-color: rgba(155, 9, 9, 1)">
+              <img src="src/img/town 1-1.png" class="img mt-5 bg-light py-md-1 my-1 mx-auto" alt="1" width="50px" height="50px" style="border-radius: 100%; padding: 2%" />
+              <div class="card-body mt-3 mb-3 text-center">
+                <h5 class="text-light fw-bold">Beli Rumah</h5>
+                <p class="text-light px-3 mt-4" style="font-size: 11px">Rumah impian kini jadi kenyataan, Beli rumah baru dengan fasilitas terbaik dan lingkungan yang nyaman.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <h1 class="fw-bold text-danger text-center mt-5" style="font-size: 40px">Rekomendasi Rumah Untuk Mu</h1>
+        <div class="row row-cols-1 row-cols-md-3 g-4 mt-4">
+          <div class="col-lg-4">
+            <div class="card h-100">
+              <img src="src/img/Mask Group-11.png" class="card-img-top ps-3 pe-2 pt-3" alt="project satu" />
+              <div class="card-body">
+                <h5 style="font-weight: 620">IDR.200.000.000</h5>
+                <p class="text-dark" style="font-size: 11px">
+                  Jl. Soekarno Hatta No.1 <br />
+                  <span class="text-warning fw-medium" style="font-size: 15px">Sewa</span>
+                </p>
+              </div>
+              <div class="card-footer">
+                <div class="row mx-auto">
+                  <div class="col-lg-1">
+                    <img src="src/img/mdi_bed-4.png" alt="" />
+                  </div>
+                  <div class="col">
+                    <p class="text-dark mt-2 ms-1" style="font-size: 11px">3</p>
+                  </div>
+                  <div class="col-lg-1 align-items-center">
+                    <img src="src/img/fa-solid_bath.png" alt="" />
+                  </div>
+                  <div class="col">
+                    <p class="text-dark mt-2" style="font-size: 11px">4</p>
+                  </div>
+                  <div class="col-lg-1">
+                    <img src="src/img/fluent_globe-surface-20-filled.png" alt="" />
+                  </div>
+                  <div class="col">
+                    <p class="text-dark mt-2" style="font-size: 11px">360m</p>
+                  </div>
+                </div>
+                <div class="row mx-auto">
+                  <div class="col">
+                    <p class="text-dark" style="font-size: 11px">Kamar Tidur</p>
+                  </div>
+                  <div class="col">
+                    <p class="text-dark" style="font-size: 11px">Kamar Mandi</p>
+                  </div>
+                  <div class="col">
+                    <p class="text-dark" style="font-size: 11px">Luas Rumah</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="card h-100">
+              <img src="src/img/Mask Group-12.png" class="card-img-top p-3" alt="project satu" />
+              <div class="card-body">
+                <h5 style="font-weight: 620">IDR.200.000.000</h5>
+                <p class="text-dark" style="font-size: 11px">
+                  Jl. Soekarno Hatta No.1 <br />
+                  <span class="text-danger fw-medium" style="font-size: 15px">Jual</span>
+                </p>
+              </div>
+              <div class="card-footer">
+                <div class="row mx-auto">
+                  <div class="col-lg-1">
+                    <img src="src/img/mdi_bed-4.png" alt="" />
+                  </div>
+                  <div class="col">
+                    <p class="text-dark mt-2 ms-1" style="font-size: 11px">3</p>
+                  </div>
+                  <div class="col-lg-1 align-items-center">
+                    <img src="src/img/fa-solid_bath.png" alt="" />
+                  </div>
+                  <div class="col">
+                    <p class="text-dark mt-2" style="font-size: 11px">4</p>
+                  </div>
+                  <div class="col-lg-1">
+                    <img src="src/img/fluent_globe-surface-20-filled.png" alt="" />
+                  </div>
+                  <div class="col">
+                    <p class="text-dark mt-2" style="font-size: 11px">360m</p>
+                  </div>
+                </div>
+                <div class="row mx-auto">
+                  <div class="col">
+                    <p class="text-dark" style="font-size: 11px">Kamar Tidur</p>
+                  </div>
+                  <div class="col">
+                    <p class="text-dark" style="font-size: 11px">Kamar Mandi</p>
+                  </div>
+                  <div class="col">
+                    <p class="text-dark" style="font-size: 11px">Luas Rumah</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="card h-100">
+              <img src="src/img/Mask Group-13.png" class="card-img-top p-3" alt="project satu" />
+              <div class="card-body">
+                <h5 style="font-weight: 620">IDR.200.000.000</h5>
+                <p class="text-dark" style="font-size: 11px">
+                  Jl. Soekarno Hatta No.1 <br />
+                  <span class="text-success fw-medium" style="font-size: 15px">Property Baru</span>
+                </p>
+              </div>
+              <div class="card-footer">
+                <div class="row mx-auto">
+                  <div class="col-lg-1">
+                    <img src="src/img/mdi_bed-4.png" alt="" />
+                  </div>
+                  <div class="col">
+                    <p class="text-dark mt-2 ms-1" style="font-size: 11px">3</p>
+                  </div>
+                  <div class="col-lg-1 align-items-center">
+                    <img src="src/img/fa-solid_bath.png" alt="" />
+                  </div>
+                  <div class="col">
+                    <p class="text-dark mt-2" style="font-size: 11px">4</p>
+                  </div>
+                  <div class="col-lg-1">
+                    <img src="src/img/fluent_globe-surface-20-filled.png" alt="" />
+                  </div>
+                  <div class="col">
+                    <p class="text-dark mt-2" style="font-size: 11px">360m</p>
+                  </div>
+                </div>
+                <div class="row mx-auto">
+                  <div class="col">
+                    <p class="text-dark" style="font-size: 11px">Kamar Tidur</p>
+                  </div>
+                  <div class="col">
+                    <p class="text-dark" style="font-size: 11px">Kamar Mandi</p>
+                  </div>
+                  <div class="col">
+                    <p class="text-dark" style="font-size: 11px">Luas Rumah</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-5">
+            <div class="card h-100">
+              <img src="src/img/Mask Group-14.png" class="card-img-top p-3" alt="project satu" />
+              <div class="card-body">
+                <h5 style="font-weight: 620">IDR.200.000.000</h5>
+                <p class="text-dark" style="font-size: 11px">
+                  Jl. Soekarno Hatta No.1 <br />
+                  <span class="text-success fw-medium" style="font-size: 15px">Property Baru</span>
+                </p>
+              </div>
+              <div class="card-footer">
+                <div class="row mx-auto">
+                  <div class="col-lg-1">
+                    <img src="src/img/mdi_bed-4.png" alt="" />
+                  </div>
+                  <div class="col">
+                    <p class="text-dark mt-2 ms-1" style="font-size: 11px">3</p>
+                  </div>
+                  <div class="col-lg-1 align-items-center">
+                    <img src="src/img/fa-solid_bath.png" alt="" />
+                  </div>
+                  <div class="col">
+                    <p class="text-dark mt-2" style="font-size: 11px">4</p>
+                  </div>
+                  <div class="col-lg-1">
+                    <img src="src/img/fluent_globe-surface-20-filled.png" alt="" />
+                  </div>
+                  <div class="col">
+                    <p class="text-dark mt-2" style="font-size: 11px">360m</p>
+                  </div>
+                </div>
+                <div class="row mx-auto">
+                  <div class="col">
+                    <p class="text-dark" style="font-size: 11px">Kamar Tidur</p>
+                  </div>
+                  <div class="col">
+                    <p class="text-dark" style="font-size: 11px">Kamar Mandi</p>
+                  </div>
+                  <div class="col">
+                    <p class="text-dark" style="font-size: 11px">Luas Rumah</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-5">
+            <div class="card h-100">
+              <img src="src/img/Mask Group-15.png" class="card-img-top p-3" alt="project satu" />
+              <div class="card-body">
+                <h5 style="font-weight: 620">IDR.200.000.000</h5>
+                <p class="text-dark" style="font-size: 11px">
+                  Jl. Soekarno Hatta No.1 <br />
+                  <span class="text-warning fw-medium" style="font-size: 15px">Sewa</span>
+                </p>
+              </div>
+              <div class="card-footer">
+                <div class="row mx-auto">
+                  <div class="col-lg-1">
+                    <img src="src/img/mdi_bed-4.png" alt="" />
+                  </div>
+                  <div class="col">
+                    <p class="text-dark mt-2 ms-1" style="font-size: 11px">3</p>
+                  </div>
+                  <div class="col-lg-1 align-items-center">
+                    <img src="src/img/fa-solid_bath.png" alt="" />
+                  </div>
+                  <div class="col">
+                    <p class="text-dark mt-2" style="font-size: 11px">4</p>
+                  </div>
+                  <div class="col-lg-1">
+                    <img src="src/img/fluent_globe-surface-20-filled.png" alt="" />
+                  </div>
+                  <div class="col">
+                    <p class="text-dark mt-2" style="font-size: 11px">360m</p>
+                  </div>
+                </div>
+                <div class="row mx-auto">
+                  <div class="col">
+                    <p class="text-dark" style="font-size: 11px">Kamar Tidur</p>
+                  </div>
+                  <div class="col">
+                    <p class="text-dark" style="font-size: 11px">Kamar Mandi</p>
+                  </div>
+                  <div class="col">
+                    <p class="text-dark" style="font-size: 11px">Luas Rumah</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-5">
+            <div class="card h-100">
+              <img src="src/img/Mask Group-16.png" class="card-img-top p-3" alt="project satu" />
+              <div class="card-body">
+                <h5 style="font-weight: 620">IDR.200.000.000</h5>
+                <p class="text-dark" style="font-size: 11px">
+                  Jl. Soekarno Hatta No.1 <br />
+                  <span class="text-danger fw-medium" style="font-size: 15px">Jual</span>
+                </p>
+              </div>
+              <div class="card-footer">
+                <div class="row mx-auto">
+                  <div class="col-lg-1">
+                    <img src="src/img/mdi_bed-4.png" alt="" />
+                  </div>
+                  <div class="col">
+                    <p class="text-dark mt-2 ms-1" style="font-size: 11px">3</p>
+                  </div>
+                  <div class="col-lg-1 align-items-center">
+                    <img src="src/img/fa-solid_bath.png" alt="" />
+                  </div>
+                  <div class="col">
+                    <p class="text-dark mt-2" style="font-size: 11px">4</p>
+                  </div>
+                  <div class="col-lg-1">
+                    <img src="src/img/fluent_globe-surface-20-filled.png" alt="" />
+                  </div>
+                  <div class="col">
+                    <p class="text-dark mt-2" style="font-size: 11px">360m</p>
+                  </div>
+                </div>
+                <div class="row mx-auto">
+                  <div class="col">
+                    <p class="text-dark" style="font-size: 11px">Kamar Tidur</p>
+                  </div>
+                  <div class="col">
+                    <p class="text-dark" style="font-size: 11px">Kamar Mandi</p>
+                  </div>
+                  <div class="col">
+                    <p class="text-dark" style="font-size: 11px">Luas Rumah</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Layanan Section End-->
+
+    <!--Contact Section Start-->
+    <section id="kontak" class="kontak">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-md-3 g-4 mt-4" style="margin-bottom: 5rem">
+          <div class="col-md-6 px-5">
+            <h1 class="fw-bold text-light mb-5" style="font-size: 35px">
+              Butuh Konsultasi..? <br />
+              Silahkan kontak kami <br />
+              Kami Siap Membantu
+            </h1>
+
+            <div class="card-body mb-3">
+              <h5 class="text-light fw-bold" style="font-size: 20px">Kontak</h5>
+              <div class="row">
+                <div class="col-lg-1">
+                  <img src="src/img/Vector.png" alt="" />
+                </div>
+                <div class="col">
+                  <p class="text-light">Jl. Raya Sumbar Riau</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-1">
+                  <img src="src/img/Group.png" alt="" />
+                </div>
+                <div class="col">
+                  <p class="text-light">0751-123-456</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-1">
+                  <img src="src/img/Vector-1.png" alt="" />
+                </div>
+                <div class="col">
+                  <p class="text-light">rumahkita@gmail.com</p>
+                </div>
+              </div>
+              <h5 class="text-light fw-bold" style="font-size: 18px">Sosial Media</h5>
+              <div class="row">
+                <div class="col-lg-1">
+                  <img src="src/img/akar-icons_instagram-fill.png" alt="" />
+                </div>
+                <div class="col">
+                  <p class="text-light">RumahKita</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 px-5">
+            <div class="card h-90 bg-light mb-3 mt-4">
+              <h3 class="text-danger text-center fw-bold mt-5">Ada Pertanyaan...?</h3>
+              <form class="px-5 pb-5 mt-4">
+                <div class="mb-3">
+                  <input type="email" class="form-control p-4" id="InputEmail1" aria-describedby="emailHelp" placeholder="Masukan email anda disini..." />
+                </div>
+                <div class="mb-3">
+                  <input type="email" class="form-control p-4" id="InputPertanyaan" aria-describedby="emailHelp" placeholder="Pertanyaan Anda..." />
+                </div>
+                <button type="submit" class="btn p-4 text-light fw-bold fs-5" style="width: 100%; background-color: rgba(155, 9, 9, 1)">Kirim</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Contact Section End-->
+
+    <!--Footer-->
+    <footer class="text-white text-center pb-2 pt-4" style="background-color: rgba(155, 9, 9, 1);">
+      <p>Create with ❤️ by <a href="https://www.instagram.com/altaf22hafizun/?hl=id" class="text-white text fw-bold">Altaf Hafizun</a> || © 2024</p>
+    </footer>
+    <!--Akhir Footer-->
+
+    <!--MyJavaScript-->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="src/js/script.js"></script>
+  </body>
+</html>

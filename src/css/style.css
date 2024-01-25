@@ -1,0 +1,34 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+section {
+  padding-top: 3rem;
+}
+
+/* Hero Section */
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background-image: url("../img/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: relative;
+  position: relative;
+}
+
+.kontak {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url("../img/image 21.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: relative;
+    position: relative;
+}
